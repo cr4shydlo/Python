@@ -17,5 +17,5 @@ def pwd_generator():
     pwd_generator = random.sample(pwd_table, pwd_long)
     password = ''.join(pwd_generator)
     return password
-#est
+#est 2
 print(pwd_generator())
